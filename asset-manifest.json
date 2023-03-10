@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4dd3fd08.css",
+    "main.js": "/static/js/main.09793403.js",
+    "static/media/cnu-logo.svg": "/static/media/cnu-logo.dc04209fadf25988e9fb1b782502c44a.svg",
+    "index.html": "/index.html",
+    "main.4dd3fd08.css.map": "/static/css/main.4dd3fd08.css.map",
+    "main.09793403.js.map": "/static/js/main.09793403.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4dd3fd08.css",
+    "static/js/main.09793403.js"
+  ]
+}
