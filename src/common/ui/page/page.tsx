@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 import { Header } from "./header";
+import { Footer } from "./footer";
 
 export const Page = styled(
   ({
@@ -14,9 +15,10 @@ export const Page = styled(
       <div className={className}>
         <Header />
         {children}
+        <Footer />
       </div>
     );
   }
 )`
-  padding: 0 20rem;
+  padding: 0 10rem;
 `;
