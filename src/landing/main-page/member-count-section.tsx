@@ -26,7 +26,7 @@ export const MemberCountSection = styled(
     width: 6.4rem;
   }
   ${Content} {
-    font-size: 1.3rem;
-    font-weight: 700;
+    font-size: 1.4rem;
+    font-weight: 500;
   }
 `;

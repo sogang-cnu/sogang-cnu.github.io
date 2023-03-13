@@ -50,7 +50,7 @@ export const GridBanner = styled(
     font-size: 4rem;
   }
   ${Content} {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     line-height: 1.4;
     font-weight: 400;
   }

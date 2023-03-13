@@ -20,7 +20,7 @@ export const Banner = styled(({ className, title, content }: TBannerProps) => {
   background: white;
   color: #5671a3;
 
-  padding: 2.1rem 2rem 1.4rem 2rem;
+  padding: 2rem 2.4rem 1.4rem;
   border-radius: 1.6rem;
 
   display: flex;
@@ -29,12 +29,12 @@ export const Banner = styled(({ className, title, content }: TBannerProps) => {
 
   ${Title} {
     font-weight: 800;
-    line-height: 8px;
-    font-size: 1.4rem;
+    line-height: 1.6rem;
+    font-size: 1.8rem;
   }
   ${Content} {
     font-weight: 400;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     line-height: 1.2;
   }
 `;

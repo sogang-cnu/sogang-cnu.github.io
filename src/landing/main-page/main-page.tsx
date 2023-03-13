@@ -30,9 +30,9 @@ const Hero = styled(({ className }: { className?: string }) => {
     line-height: 5rem;
   }
   ${HeroSubTitle} {
-    font-weight: 700;
-    margin-top: 1rem;
-    font-size: 1.4rem;
+    font-weight: 500;
+    font-size: 1.6rem;
+    margin-top: 0.8rem;
   }
 `;
 

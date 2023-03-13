@@ -2,3 +2,6 @@
   box-sizing: border-box;
   font-family: "Pretendard" !important;
 }
+html {
+  font-size: 62.5%;
+}
