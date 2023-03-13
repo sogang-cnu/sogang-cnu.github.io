@@ -117,10 +117,16 @@ export const MainPage = styled(({ className }) => {
   height: auto;
   background: linear-gradient(
     177.55deg,
-    #92d2b3 30.57%,
-    rgba(250, 243, 62, 0.526042) 80.32%,
+    rgb(146, 210, 179) 30.57%,
+    rgb(146 210 179 / 23%) 80.32%,
     rgba(110, 237, 242, 0) 97.95%
   );
+  /* background: linear-gradient(
+      177.55deg,
+      #92d2b3 30.57%,
+      rgba(250, 243, 62, 0.526042) 80.32%,
+    rgba(110, 237, 242, 0) 97.95%
+  ); */
 
   ${CnuLogoImage} {
     margin-left: -1rem;
@@ -145,6 +151,21 @@ export const MainPage = styled(({ className }) => {
       }
       &:nth-of-type(4) {
         grid-column: 3 / span 2;
+      }
+    }
+  }
+  @media (max-width: 1340px) {
+  }
+  @media (max-width: 950px) {
+    ${Grid} {
+      display: flex;
+      flex-direction: column;
+      gap: 2.4rem;
+      ${GridBanner} {
+        &:nth-of-type(2),
+        :nth-of-type(3) {
+          display: none;
+        }
       }
     }
   }
