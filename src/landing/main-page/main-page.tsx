@@ -154,9 +154,7 @@ export const MainPage = styled(({ className }) => {
       }
     }
   }
-  @media (max-width: 1340px) {
-  }
-  @media (max-width: 950px) {
+  ${(props) => props.theme.device.large} {
     ${Grid} {
       display: flex;
       flex-direction: column;

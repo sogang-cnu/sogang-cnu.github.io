@@ -28,10 +28,10 @@ export const Footer = styled(({ className }: { className?: string }) => {
   line-height: 1.4;
 
   /* FIXME: Page의 padding 값에 의존하고 있음 */
-  @media (max-width: 1340px) {
+  ${(props) => props.theme.device.xlarge} {
     margin-left: -20rem;
   }
-  @media (max-width: 950px) {
+  ${(props) => props.theme.device.large} {
     margin-left: -2.4rem;
     padding: 33rem 2.4rem 3rem;
   }

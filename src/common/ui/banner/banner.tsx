@@ -29,7 +29,7 @@ export const Banner = styled(({ className, title, content }: TBannerProps) => {
 
   ${Title} {
     font-weight: 800;
-    line-height: 1.6rem;
+    line-height: 1;
     font-size: 1.8rem;
   }
   ${Content} {

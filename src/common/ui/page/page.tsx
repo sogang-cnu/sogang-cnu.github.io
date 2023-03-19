@@ -18,10 +18,10 @@ export const Page = styled(({ className, children }: TPageProps) => {
   );
 })`
   padding: 0px 40rem;
-  @media (max-width: 1340px) {
+  ${(props) => props.theme.device.xlarge} {
     padding: 0 20rem;
   }
-  @media (max-width: 950px) {
+  ${(props) => props.theme.device.large} {
     padding: 0 2.4rem;
   }
 `;
