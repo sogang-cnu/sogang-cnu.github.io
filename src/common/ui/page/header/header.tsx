@@ -22,7 +22,7 @@ export const Header = styled(({ className }) => {
   return (
     <header className={className}>
       <MobileMenuButton />
-      {createPortal(<MobileDrawer>123123</MobileDrawer>, document.body)}
+      {createPortal(<MobileDrawer></MobileDrawer>, document.body)}
       <HeaderItem label="HOME" active />
       <HeaderItem label="STUDIES" />
       <HeaderItem label="PROJECTS" />
