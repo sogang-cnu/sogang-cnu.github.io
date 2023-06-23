@@ -1,5 +1,3 @@
-import { css } from "styled-components";
-
 export const theme = {
   device: {
     xlarge: `
@@ -10,3 +8,8 @@ export const theme = {
     `,
   },
 };
+declare module "styled-components" {
+  export interface DefaultTheme {
+    device: typeof theme.device;
+  }
+}
