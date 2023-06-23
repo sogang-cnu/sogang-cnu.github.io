@@ -35,7 +35,7 @@ export const Footer = styled(({ className }: { className?: string }) => {
     margin-left: -2.4rem;
     padding: 33rem 2.4rem 3rem;
   }
-  margin-left: -40rem;
+
   padding: 33rem 4rem 3rem 4rem;
 
   font-size: 1.2rem;

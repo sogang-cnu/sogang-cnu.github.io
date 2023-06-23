@@ -8,16 +8,27 @@ type TPageProps = {
   children: React.ReactNode;
 };
 
+const BodyWrapper = styled.div`
+  max-width: 862px;
+`;
+
 export const Page = styled(({ className, children }: TPageProps) => {
   return (
     <div className={className}>
-      <Header />
-      {children}
+      <BodyWrapper>
+        <Header />
+        {children}
+      </BodyWrapper>
       <Footer />
     </div>
   );
 })`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   padding: 0px 40rem;
+
   ${(props) => props.theme.device.xlarge} {
     padding: 0 20rem;
   }
